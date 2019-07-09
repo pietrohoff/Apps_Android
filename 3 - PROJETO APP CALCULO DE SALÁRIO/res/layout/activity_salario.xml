@@ -1,0 +1,53 @@
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:id="@+id/LinearLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Digite seu salário"
+		tools:context=".SalarioActivity" />
+	<EditText
+		android:id="@+id/editText1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="numberDecimal" >
+	<requestFocus />
+	</EditText>
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Qual seu percentual ?" />
+	<RadioGroup
+		android:id="@+id/rgopcoes"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+	<RadioButton
+		android:id="@+id/rb40"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:checked="true"
+		android:text="40%" />
+
+	<RadioButton
+		android:id="@+id/rb45"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="45%" />
+	<RadioButton
+		android:id="@+id/rb50"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="50%" />
+	</RadioGroup>
+	<Button
+		android:id="@+id/btcalcular"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Calcular novo salário" />
+	</LinearLayout>

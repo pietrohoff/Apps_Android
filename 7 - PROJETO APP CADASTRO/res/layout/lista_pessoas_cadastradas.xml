@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="123dp"
+    android:layout_height="178dp"
+    android:src="@drawable/profile" />
+
+<TextView
+android:id="@+id/textView1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Lista de pessoas cadastradas"
+android:textSize="20sp" />
+<LinearLayout
+android:id="@+id/layoutNome"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal" >
+<TextView
+android:id="@+id/textView2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+
+85
+
+android:text="Nome :"
+android:textColor="#0000ff"
+android:textSize="20sp" />
+<TextView
+android:id="@+id/txtnome"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=" "
+android:textSize="20sp" />
+</LinearLayout>
+<LinearLayout
+android:id="@+id/layoutProfissao"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" >
+<TextView
+android:id="@+id/textView3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Profissão:"
+android:textColor="#0000ff"
+android:textSize="20sp" />
+<TextView
+android:id="@+id/txtprofissao"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=" "
+android:textSize="20sp" />
+</LinearLayout>
+<LinearLayout
+android:id="@+id/layoutIdade"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" >
+<TextView
+android:id="@+id/textView4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Idade:"
+android:textColor="#0000ff"
+android:textSize="20sp" />
+<TextView
+android:id="@+id/txtidade"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=" "
+android:textSize="20sp" />
+</LinearLayout>
+
+86
+<LinearLayout
+android:id="@+id/layoutBotoes"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center" >
+<Button
+android:id="@+id/btvoltar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Voltar" />
+<Button
+android:id="@+id/btavancar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Avançar" />
+</LinearLayout>
+<Button
+android:id="@+id/btmenu_principal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Menu principal" />
+</LinearLayout>

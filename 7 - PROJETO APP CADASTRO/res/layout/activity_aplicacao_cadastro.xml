@@ -1,0 +1,33 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/LinearLayout1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="112dp"
+        android:layout_height="164dp"
+        android:src="@drawable/profile" />
+
+<TextView
+android:id="@+id/textView1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Bem vindo a Aplicação
+de Cadastro de Pessoas.Este é um pequeno
+programa de demonstração de cadastro.
+Selecione uma das opções abaixo:" />
+<Button
+android:id="@+id/btcadastrarpessoa"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Cadastrar pessoa" />
+<Button
+android:id="@+id/btlistarpessoas"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Listar pessoas cadastradas" />
+</LinearLayout>

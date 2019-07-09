@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+<Button
+    android:id="@+id/bttotal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="122dp"
+    android:text="Total das compras" />
+
+<CheckBox
+    android:id="@+id/chkarroz"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/bttotal"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="61dp"
+    android:text="Arroz (R$ 2,69)" />
+
+<CheckBox
+    android:id="@+id/chkfeijao"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/chkarroz"
+    android:layout_alignRight="@+id/chkarroz"
+    android:layout_marginBottom="24dp"
+    android:text="Feijão (R$ 2,30)" />
+
+<CheckBox
+    android:id="@+id/chkleite"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/chkcarne"
+    android:layout_alignRight="@+id/chkcarne"
+    android:text="Leite (R$ 5,00)" />
+
+<CheckBox
+    android:id="@+id/chkcarne"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/chkfeijao"
+    android:layout_alignLeft="@+id/chkfeijao"
+    android:text="Carne (R$ 9,70)" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/chkcarne"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="22dp"
+    android:text="Escolha seu produto"
+    tools:context=".ComprasActivity" />
+
+</RelativeLayout>
